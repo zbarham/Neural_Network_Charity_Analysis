@@ -15,6 +15,7 @@ The purpose of this analysis was to develop a deep learning model using a neural
   - Number of neurons: Layer 1 - 80, Layer 2 - 30
   - Activation Functions: All layers - relu
   - Target Model Performance: 72.71%
+  
   ![AlphabetSoupCharity_ModelAccuracy](Screenshots/AlphabetSoupCharity_EvaluateTheModel.png)
 
 ### Optimize the Model
@@ -22,18 +23,21 @@ The purpose of this analysis was to develop a deep learning model using a neural
   - Number of Neurons: Layer 1 - 80, Layer 2 - 40, Layer 3 - 20
   - Activation Functions: Layer 1 - ReLU, Layer 2 - tanh, Layer 3 - sigmoid
   - Accuracy: 72.91%
+  
   ![AlphabetSoupCharity_Optimization_Try1_ModelAccuracy](Screenshots/AlphabetSoupCharity_Optimization_Try1_EvaluateTheModel.png)
 
 - **Attempt 2**
   - Number of Neurons: Layer 1 - 200, Layer 2 - 150, Layer 3 - 100, Layer 4 - 50
   - Activation Functions: All layers - tanh
   - Accuracy: 72.9%
+  
   ![AlphabetSoupCharity_Optimization_Try2_ModelAccuracy](Screenshots/AlphabetSoupCharity_Optimization_Try2_EvaluateTheModel.png)
 
 - **Final Attempt (3)**
   - Number of Neurons: Layer 1 - 125, Layer 2 - 50, Layer 3 - 20, Layer 4 - 10
   - Activation Functions: All layers - tanh
   - Accuracy: 77.82%
+  
   ![AlphabetSoupCharity_Optimization_ModelAccuracy](Screenshots/AlphabetSoupCharity_Optimization_EvaluateTheModel.png)
 
 ## Summary
